@@ -3,4 +3,11 @@
     "scripts": {
         "postdeploy": "node standup_schema.js"
     }
+    "env": {
+        "domain": {
+            "description": "Salesforce domain",
+			"value": "replace this with the salesforce domain"
+        },
+		
+	}
 }
