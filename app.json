@@ -1,0 +1,6 @@
+{
+    "name": "Hiker's Trail Buddy"
+    "scripts": {
+        "postdeploy": "node standup_schema.js"
+    }
+}
